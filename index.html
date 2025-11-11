@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio Website</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="https://kit.fontawesome.com/c03eec6d33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="C:\portfolio\roshan.logo.jpg" class="logo" width="100px" height="60px">
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<p>Frontend Developer</p>
+				<h1>Hi, I'm <span>Syed Roshan</span><br> from India</h1>
+			</div>
+		</div>
+	</div>
+	<!---------------about---------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col1">
+					<img src="C:\portfolio\roshan.png.jpg" width="450px" height="400px">
+				</div>
+				<div class="about-col2">
+					<h2 class="sub-title">About Me</h2>
+					<p> Hello, It's Me Syed Roshan, And I'm a frontent Developer, Can create user-friendly and responsive websites.
+					responsible for designing and developing websites and web application using a variety of programming languages and web technologies.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Web Technologies</span><br>HTML, CSS, JAVASCRIPT, REACT-JS, BOOTSRAP, PYTHON, DATA STRUCTURES, SQL.</li>
+							<li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+							<li><span>Web Development</span><br>Web app Development</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>Audisankara Institue Of Technology</span><br>B-TECH(CSE)<br>8.7 CGPA</li>
+							<li><span>Krishna Chaitanya Junior College</span><br>INTERMEDIATE<br>9.3 CGPA</li>
+							<li><span>Sri Chaitanya Techno High School</span><br>High School<br>9.7 CGPA</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------Service---------------->
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h3>Web Design</h3>
+					<p><font size="4px">Web Design refers to the design of websites, it usually refers to the user experience aspects of website develpment</p></font>
+					<a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-crop-simple"></i>
+					<h3>UI/UX Design</h3>
+					<p><font size="4px">UI/UX Design focuses on creating a seamless and meaningful user experience while UI design focuses on the visual interactive of webpages</p></font> 
+					<a href="#">learn more</a>
+				</div>
+				<div>
+					<i class="fa-brands fa-app-store"></i>
+					<h3>App Design</h3>
+					<p><font size="4px">App Design is the process of creating a website applications that delivers a seamless user experience(UX) and meets users needs</p></font>
+					<a href="#">learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------portfolio----------->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="C:\portfolio\mob1.jpg" width="300px" height="300px">
+					<div class="layer">
+						<h3>Social Media App</h3>
+						<p>The app connects you to the talented people around the world. Download it from play store </p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="C:\portfolio\mob2.jpg" width="300px" height="300px">
+					<div class="layer">
+						<h3>Music App</h3>
+						<p>The app connects you to the talented people around the world. Download it from play store </p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="C:\portfolio\mob3.jpg" width="300px" height="300px">
+					<div class="layer">
+						<h3>Online App</h3>
+						<p>The app connects you to the talented people around the world. Download it from play store </p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See More</a>
+		</div>
+	</div>
+	<!--------------Contact----------->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fas fa-paper-plane"></i> roshansd74@gmail.com</p>
+					<p><i class="fas fa-phone-square-alt"></i> 9121948072</p>
+					<div class="social-icons">
+						<a href="https://www.facebook.com/syed.roshan.129142?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.instagram.com/syed_roshan_04?igsh=MWNkeGc0a2t2emVudw=="><i class="fab fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/sd-roshan-555088217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+						<a href="https://x.com/RoshanSd62390?t=OevAn73uglLC1TUjKIfybg&s=09"><i class="fab fa-twitter-square"></i></a>
+					</div>
+					<a href="C:\portfolio\resu_me.pdf" class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p><i class="fa-solid fa-copyright" style="color: #74C0FC;"></i>  Copyright @2024 portfolio. Made with <i class="fa-solid fa-heart" style="color: #f71d28;"></i> by | Syed Roshan
+		</div>
+	</div>
+<script src="main.js"></script>
+	<!--<header class="header">
+		<a href="#" class="logo">Portfolio</a>
+
+		<nav class="Navbar">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Skill</a>
+			<a href="#">Portfolio</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
+		<section class="home">
+		<div class="home-content">
+			<img src="C:\portfolio\roshan.png.jpeg" width="300px", height="300px" class="image">
+			<p><h3>Hello, It's Me</h3>
+			<h1>Syed Roshan</h1>
+			<h3>And I'm a</h3>
+			<p>I'm a frontent Developer, Can create user-friendly and responsive websites.
+			<br>responsible for designing and developing websites and web application using a variety of programming languages and web technologies.</p></p>
+			<div class="home-sci">
+			</div>
+		</div>
+	</section>-->
+
+</body>
+</html>
